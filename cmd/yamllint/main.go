@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/wasilibs/go-yamllint/internal/pysite"
-	"github.com/wasilibs/go-yamllint/internal/runner"
+	"github.com/zachariahmiller/go-yamllint/internal/pysite"
+	"github.com/zachariahmiller/go-yamllint/internal/runner"
 )
 
 func main() {

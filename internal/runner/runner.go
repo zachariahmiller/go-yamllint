@@ -14,7 +14,7 @@ import (
 	"github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"
 	"github.com/tetratelabs/wazero/sys"
 
-	"github.com/wasilibs/go-yamllint/internal/pysite"
+	"github.com/zachariahmiller/go-yamllint/internal/pysite"
 )
 
 func Run(name string, cmdArgs []string, wasm []byte, stdin io.Reader, stdout io.Writer, stderr io.Writer, cwd string) int {
